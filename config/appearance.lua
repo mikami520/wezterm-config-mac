@@ -1,20 +1,10 @@
 --[[
 Author: mikami520 yl.xiao@mail.utoronto.ca
-Date: 2024-03-28 09:25:35
-LastEditors: mikami520 yl.xiao@mail.utoronto.ca
-LastEditTime: 2024-03-28 09:31:21
-FilePath: /wezterm/config/appearance.lua
-Description: 
-I Love IU
-Copyright (c) 2024 by mikami520 yl.xiao@mail.utoronto.ca, All Rights Reserved. 
---]]
---[[
-Author: mikami520 yl.xiao@mail.utoronto.ca
 Date: 2024-03-28 09:17:06
 LastEditors: mikami520 yl.xiao@mail.utoronto.ca
 LastEditTime: 2024-03-28 09:18:28
 FilePath: /wezterm-config/config/appearance.lua
-Description: 
+Description: appearance settings for wezterm
 I Love IU
 Copyright (c) 2024 by mikami520 yl.xiao@mail.utoronto.ca, All Rights Reserved. 
 --]]
@@ -37,7 +27,7 @@ return {
    window_background_opacity = 0.95,
    win32_system_backdrop = 'Acrylic',
    window_background_gradient = {
-      colors = { '#2F3045', '#0B1F1F' },
+      colors = { '#881798', '#881798' },
       -- Specifices a Linear gradient starting in the top left corner.
       orientation = { Linear = { angle = -45.0 } },
    },
@@ -91,9 +81,9 @@ return {
    window_close_confirmation = 'AlwaysPrompt',
    window_frame = {
       active_titlebar_bg = '#0F2536',
-      inactive_titlebar_bg = '#0F2536',
+      inactive_titlebar_bg = '#090909',
       -- font = fonts.font,
       -- font_size = fonts.font_size,
    },
-   inactive_pane_hsb = { saturation = 1.0, brightness = 1.0 },
+   inactive_pane_hsb = { saturation = 1.0, brightness = 5.0 },
 }

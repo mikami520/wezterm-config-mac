@@ -4,7 +4,7 @@ Date: 2024-03-28 09:17:06
 LastEditors: mikami520 yl.xiao@mail.utoronto.ca
 LastEditTime: 2024-03-28 09:22:23
 FilePath: /wezterm-config/config/general.lua
-Description: 
+Description: general settings for wezterm
 I Love IU
 Copyright (c) 2024 by mikami520 yl.xiao@mail.utoronto.ca, All Rights Reserved. 
 --]]

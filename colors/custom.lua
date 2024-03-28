@@ -1,3 +1,13 @@
+--[[
+Author: mikami520 yl.xiao@mail.utoronto.ca
+Date: 2024-03-28 09:25:35
+LastEditors: mikami520 yl.xiao@mail.utoronto.ca
+LastEditTime: 2024-03-28 11:21:32
+FilePath: /wezterm/colors/custom.lua
+Description: custom color scheme for wezterm
+I Love IU
+Copyright (c) 2024 by mikami520 yl.xiao@mail.utoronto.ca, All Rights Reserved. 
+--]]
 -- A slightly altered version of catppucchin mocha
 local mocha = {
    rosewater = "#f5e0dc",
@@ -14,7 +24,7 @@ local mocha = {
    sapphire = "#74c7ec",
    blue = "#89b4fa",
    lavender = "#b4befe",
-   text = "#cdd6f4",
+   text = "#881798",
    subtext1 = "#bac2de",
    subtext0 = "#a6adc8",
    overlay2 = "#9399b2",
@@ -29,12 +39,12 @@ local mocha = {
 }
 
 local colorscheme = {
-   foreground = mocha.text,
-   background = mocha.base,
-   cursor_bg = mocha.rosewater,
-   cursor_border = mocha.rosewater,
-   cursor_fg = mocha.crust,
-   selection_bg = mocha.surface2,
+   foreground = mocha.pink,
+   background = mocha.pink,
+   cursor_bg = mocha.pink,
+   cursor_border = mocha.pink,
+   cursor_fg = mocha.pink,
+   selection_bg = mocha.pink,
    selection_fg = mocha.text,
    ansi = {
       "#0C0C0C", -- black
@@ -57,9 +67,9 @@ local colorscheme = {
       "#F2F2F2", -- white
    },
    tab_bar = {
-      background = "#000000",
+      background = "#B4009E",
       active_tab = {
-         bg_color = mocha.surface2,
+         bg_color = mocha.pink,
          fg_color = mocha.text,
       },
       inactive_tab = {
