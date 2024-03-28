@@ -18,14 +18,13 @@
   - [Noto Color Emoji](https://fonts.google.com/noto)
 
 ## Usage
-
+1. Open ```wezterm``` GUI
+2. Copy and paste
 ```bash
 mkdir ~/.config/wezterm
 git clone https://github.com/mikami520/wezterm-config-mac.git ~/.config/wezterm
-start wezterm-gui
 ```
-
-You can also DIY by editing the files in the ```config``` folder
+```wezterm``` will automatically reload the new configuration. You can also DIY by editing the files in the ```config``` folder
 
 
 ## Relative Links
