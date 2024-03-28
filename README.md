@@ -13,7 +13,7 @@
 
 - [WezTerm Terminal](https://github.com/wez/wezterm/releases)
 - Necessary fonts
-  - [Nerd Font Symbola](https://www.nerdfonts.com/)
+  - [Nerd Font Symbol](https://www.nerdfonts.com/)
   - [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
   - [Noto Color Emoji](https://fonts.google.com/noto)
 
