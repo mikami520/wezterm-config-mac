@@ -2,7 +2,7 @@
 
 **Screenshot**
 
-![screenshot](./screenshots/screenshot-1.png) 
+![screenshot](./screenshots/screenshot-3.png) 
 
 
 ## Relative Links
