@@ -24,7 +24,7 @@
 mkdir ~/.config/wezterm
 git clone https://github.com/mikami520/wezterm-config-mac.git ~/.config/wezterm
 ```
-```wezterm``` will automatically reload the new configuration. You can also DIY by editing the files in the ```config``` folder
+```wezterm``` will automatically reload the new configuration. You can also DIY by editing the files in the ```~/.config/wezterm/config``` folder
 
 
 ## Relative Links
